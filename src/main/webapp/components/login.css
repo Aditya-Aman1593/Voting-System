@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     /* background: url("../components/Images/india-flag-2021-wallpaper-1.png") no-repeat center center/cover;*/
+     background-image: linear-gradient(to bottom right, #09203F, #008080);
+     
+}
+
+.Main-menu{
+	width: 10%;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #09203F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000; 
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+   background-color: #09203F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #008080;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #5cb85c;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
+
+.agreement-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.register-prompt {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-prompt a {
+    color: rgb(10, 10, 215);
+    text-decoration: underline;
+}
+
+.register-prompt a:hover {
+    text-decoration: none;
+}

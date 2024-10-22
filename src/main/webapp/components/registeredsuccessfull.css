@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+      background-image: linear-gradient(to bottom right, #09203F, #008080);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+
+.candidate-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+
+p {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 16px;
+}
+
+img {
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+
+a.login-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+
+a.login-btn:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 600px) {
+    .candidate-info {
+        width: 90%;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    a.login-btn {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+}

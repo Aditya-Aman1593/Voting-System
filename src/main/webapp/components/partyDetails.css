@@ -1,0 +1,97 @@
+
+
+
+.Main-menu{
+	width: 10%;
+    margin-right: 10px;
+    float:right;
+    background-color: #09203F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000; 
+    cursor:pointer;
+    color:white;
+}
+
+.Main-menu:hover{
+	background-color: #008080
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+
+thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+
+td {
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+td:first-child {
+    text-align: center;
+    width: 50px;
+}
+
+
+td img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+td a, td form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+td a i {
+    color: #28a745;
+    margin-right: 10px;
+}
+
+
+td form button i {
+    color: #dc3545;
+}
+
+
+td form {
+    display: inline-block;
+    margin-left: 10px;
+}

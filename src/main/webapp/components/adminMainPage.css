@@ -1,0 +1,100 @@
+/* General table styling */
+
+
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Header styling for blue background */
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Individual header cell styling */
+thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* Table body rows */
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Cell padding and text alignment */
+td {
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Hover effect for table rows */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+td:first-child {
+    text-align: center;
+    width: 50px;
+}
+
+
+td img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+td a, td form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+td a i {
+    color: #28a745;
+    margin-right: 10px;
+}
+
+
+td form button i {
+    color: #dc3545;
+}
+
+
+td form {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.addcandbtn{
+	float : right;
+    background-color: #09203F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 20px;
+    
+    transition: background-color 0.3s ease;
+	cursor: pointer;
+	
+}
+
+.addcandbtn:hover{
+	 background-color: #008080;
+}
+
